@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "backend-82d7e": {
+      "hosting": {
+        "triple7": [
+          "backend-82d7e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "backend-82d7e"
+  }
+}

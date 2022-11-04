@@ -1,0 +1,23 @@
+:host {
+  z-index: 1;
+  position: relative;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.link {
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.mat-card {
+  // max-width: 500px;
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 0;
+}
