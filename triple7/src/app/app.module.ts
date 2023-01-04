@@ -26,6 +26,7 @@ import { provideRemoteConfig,getRemoteConfig } from '@angular/fire/remote-config
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import { SharedModule } from './shared/shared.module';
 import { FIREBASE_OPTIONS } from '@angular/fire/compat';
+import { PostsModule } from './posts/posts.module';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { FIREBASE_OPTIONS } from '@angular/fire/compat';
     providePerformance(() => getPerformance()),
     provideRemoteConfig(() => getRemoteConfig()),
     provideStorage(() => getStorage()),
-    SharedModule
+    SharedModule,
+    PostsModule
   ],
   providers: [
     ScreenTrackingService,UserTrackingService,

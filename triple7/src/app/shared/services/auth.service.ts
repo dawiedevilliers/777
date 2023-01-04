@@ -7,7 +7,21 @@ import firebase from 'firebase/compat/app';
 })
 export class AuthService {
 
+  authState: any = null;
+
   constructor(public afAuth: AngularFireAuth) {
+    this.afAuth.authState.subscribe(data => {
+      this.authState = data;
+      console.log(this.authState);
+    })
+  }
+
+  get authenticated(): boolean {
+    return this.authState !== null;
+  }
+
+  get currentUserId(): string {
+    return this.authenticated ? this.authState.uid : null;
   }
 
   login () {

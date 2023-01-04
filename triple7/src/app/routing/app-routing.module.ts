@@ -7,13 +7,14 @@ import { NewsComponent } from '../pages/news/news.component';
 import { paths } from './app-paths';
 
 const routes: Routes = [
+  {path: '', redirectTo: paths.news, pathMatch: 'full'},
   {
     path: paths.home,
     component: HomeComponent
   },
   {
     path: paths.news,
-    component: NewsComponent
+    loadChildren: () => import('../posts/posts.module').then(mod => mod.PostsModule),
   },
   {
     path: paths.music,

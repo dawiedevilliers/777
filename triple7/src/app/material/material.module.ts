@@ -21,6 +21,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatSelectModule } from '@angular/material/select';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 export const materialModules = [
   MatBottomSheetModule,
@@ -45,6 +46,7 @@ export const materialModules = [
   MatTabsModule,
   MatMenuModule,
   MatSelectModule,
+  MatProgressBarModule
 ];
 
 @NgModule({

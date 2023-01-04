@@ -1,0 +1,41 @@
+
+ <div fxLayout="column" fxLayoutAlign="center center">
+<section>
+  <mat-accordion>
+    <mat-expansion-panel>
+
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+        Create Post
+        </mat-panel-title>
+
+      </mat-expansion-panel-header>
+
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <div class="image-uploader">
+          <mat-progress-bar color="secondary" mode="determinate" value="{{uploadPercent | async}}"></mat-progress-bar>
+          <input type="file" name="file" id="file" (change)="uploadImage($event)">
+
+          <img src="{{ this.downloadUrl}}">
+
+        </div>
+
+        <mat-form-field>
+          <input matInput placeholder="Post Title" [(ngModel)]="title">
+         </mat-form-field>
+
+         <mat-form-field>
+           <textarea rows="10" matInput placeholder="Post Content" [(ngModel)]="content"></textarea>
+          </mat-form-field>
+
+          <button mat-raised-button (click)="createPost()" [disabled]="!title || !content">{{buttonText}}</button>
+        </div>
+
+    </mat-expansion-panel>
+  </mat-accordion>
+</section>
+</div>
+
+
+
+
