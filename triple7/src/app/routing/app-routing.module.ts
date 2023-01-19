@@ -4,6 +4,7 @@ import { HealthComponent } from '../pages/health/health.component';
 import { HomeComponent } from '../pages/home/home.component';
 import { MusicComponent } from '../pages/music/music.component';
 import { NewsComponent } from '../pages/news/news.component';
+import { SatanicCultComponent } from '../pages/satanic-cult/satanic-cult.component';
 import { paths } from './app-paths';
 
 const routes: Routes = [
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: paths.health,
     component: HealthComponent
+  },
+  {
+    path: paths.sataniccult,
+    component: SatanicCultComponent
   }
 ];
 

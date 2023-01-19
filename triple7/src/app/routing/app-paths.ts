@@ -3,6 +3,8 @@ export const paths = {
   news: 'news',
   music: 'music',
   health: 'health',
+  sataniccult: 'satanic-cult',
+
 
 
 }

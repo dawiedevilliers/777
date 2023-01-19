@@ -27,6 +27,7 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
 import { SharedModule } from './shared/shared.module';
 import { FIREBASE_OPTIONS } from '@angular/fire/compat';
 import { PostsModule } from './posts/posts.module';
+import { SatanicCultComponent } from './pages/satanic-cult/satanic-cult.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PostsModule } from './posts/posts.module';
     HomeComponent,
     NewsComponent,
     MusicComponent,
-    HealthComponent
+    HealthComponent,
+    SatanicCultComponent
   ],
   imports: [
     BrowserModule,
