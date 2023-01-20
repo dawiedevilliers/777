@@ -1,6 +1,6 @@
 img {
   width: auto;
-  max-height: 500px;
+  max-height: 400px;
 }
 
 
@@ -17,13 +17,20 @@ h1 {
 }
 
 .article-header {
-  h1 {
-    font-size: 44px;
-    line-height: 44px;
-    font-family: 'SatanFont';
-  }
+
 
   span {
     color: #9e4031;
   }
+}
+
+.satan-header {
+  font-size: 44px;
+  line-height: 44px;
+  font-family: 'SatanFont';
+}
+
+p {
+  font-size: 22px;
+  line-height: normal;
 }

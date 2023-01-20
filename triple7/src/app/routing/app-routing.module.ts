@@ -8,7 +8,7 @@ import { SatanicCultComponent } from '../pages/satanic-cult/satanic-cult.compone
 import { paths } from './app-paths';
 
 const routes: Routes = [
-  {path: '', redirectTo: paths.news, pathMatch: 'full'},
+  {path: '', redirectTo: paths.home, pathMatch: 'full'},
   {
     path: paths.home,
     component: HomeComponent
