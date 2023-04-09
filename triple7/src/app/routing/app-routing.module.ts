@@ -1,3 +1,4 @@
+import { SymbolismComponent } from './../pages/symbolism/symbolism.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HealthComponent } from '../pages/health/health.component';
@@ -6,6 +7,7 @@ import { MusicComponent } from '../pages/music/music.component';
 import { NewsComponent } from '../pages/news/news.component';
 import { SatanicCultComponent } from '../pages/satanic-cult/satanic-cult.component';
 import { paths } from './app-paths';
+import { FlyerComponent } from '../pages/flyer/flyer.component';
 
 const routes: Routes = [
   {path: '', redirectTo: paths.home, pathMatch: 'full'},
@@ -28,6 +30,14 @@ const routes: Routes = [
   {
     path: paths.sataniccult,
     component: SatanicCultComponent
+  },
+  {
+    path: paths.flyer,
+    component: FlyerComponent
+  },
+  {
+    path: paths.symbolism,
+    component: SymbolismComponent
   }
 ];
 

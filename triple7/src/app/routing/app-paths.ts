@@ -4,6 +4,9 @@ export const paths = {
   music: 'music',
   health: 'health',
   sataniccult: 'satanic-cult',
+  flyer: 'flyer',
+  symbolism: 'symbolism'
+
 
 
 

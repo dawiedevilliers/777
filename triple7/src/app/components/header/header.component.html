@@ -3,12 +3,21 @@
 
     <div fxLayout="row" fxLayoutAlign="center center">
       <h2 [routerLink]="['/home']" class="link">Home</h2>
-      <h2 [routerLink]="['/news']" class="link">News</h2>
+      <h2 [routerLink]="['/satanic-cult']" class="link">Satanic cult</h2>
+      <h2 [routerLink]="['/health']" class="link">Cures</h2>
+      <h2 [routerLink]="['/flyer']" class="link">Flyer to share</h2>
+      <!-- <h2 [routerLink]="['/controllers']" class="link">The controllers</h2> -->
+
+
+
+
+
+      <!-- <h2 [routerLink]="['/news']" class="link">News</h2>
       <h2 [routerLink]="['/music']" class="link">Music</h2>
-      <h2 [routerLink]="['/health']" class="link">Health</h2>
+      <h2 [routerLink]="['/health']" class="link">Health</h2> -->
     </div>
 
-    <div>
+    <!-- <div>
       <button routerLink="/dashboard" mat-raised-button color="accent">Write a Post</button>
       <div *ngIf="auth.afAuth.authState | async as user; else showLogin">
         <button (click)="auth.logout()" mat-button>Logout</button>
@@ -16,7 +25,7 @@
       <ng-template #showLogin>
         <button (click)="auth.login()" mat-button>Login with Google</button>
       </ng-template>
-    </div>
+    </div> -->
 
   </div>
 </mat-card>

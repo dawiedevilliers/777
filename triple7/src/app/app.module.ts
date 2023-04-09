@@ -28,6 +28,8 @@ import { SharedModule } from './shared/shared.module';
 import { FIREBASE_OPTIONS } from '@angular/fire/compat';
 import { PostsModule } from './posts/posts.module';
 import { SatanicCultComponent } from './pages/satanic-cult/satanic-cult.component';
+import { FlyerComponent } from './pages/flyer/flyer.component';
+import { SymbolismComponent } from './pages/symbolism/symbolism.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { SatanicCultComponent } from './pages/satanic-cult/satanic-cult.componen
     NewsComponent,
     MusicComponent,
     HealthComponent,
-    SatanicCultComponent
+    SatanicCultComponent,
+    FlyerComponent,
+    SymbolismComponent
   ],
   imports: [
     BrowserModule,

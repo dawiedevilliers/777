@@ -1,8 +1,17 @@
-img {
-  width: auto;
-  max-height: 400px;
+.celebrity-container {
+  img {
+    width: auto;
+    max-height: 400px;
+  }
 }
 
+
+
+video {
+  max-width: 900px;
+  width: 100%;
+  margin: 10px;
+}
 
 .text-align-end {
   text-align: end;
@@ -14,6 +23,11 @@ img {
 
 h1 {
   text-align: center;
+  font-family: 'SatanFont';
+}
+
+.content-spacing {
+  margin: 40px 0;
 }
 
 .article-header {
@@ -24,13 +38,21 @@ h1 {
   }
 }
 
+$textSize: 66px;
+
 .satan-header {
-  font-size: 44px;
-  line-height: 44px;
+  font-size: $textSize;
+  line-height: $textSize;
   font-family: 'SatanFont';
 }
 
 p {
   font-size: 22px;
   line-height: normal;
+}
+
+.their-god-container {
+  img {
+    max-width: 600px;
+  }
 }
