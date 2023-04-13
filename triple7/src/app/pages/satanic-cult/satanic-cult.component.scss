@@ -1,8 +1,9 @@
 .celebrity-container {
-  img {
-    width: auto;
-    max-height: 400px;
-  }
+img  {
+  width: 100%;
+  max-width: 600px;
+  max-height: 400px;
+}
 }
 
 
@@ -23,7 +24,7 @@ video {
 
 h1 {
   text-align: center;
-  font-family: 'SatanFont';
+  font-family: 'StanFont';
 }
 
 .content-spacing {
@@ -43,7 +44,7 @@ $textSize: 66px;
 .satan-header {
   font-size: $textSize;
   line-height: $textSize;
-  font-family: 'SatanFont';
+  font-family: 'StanFont';
 }
 
 p {
@@ -54,5 +55,33 @@ p {
 .their-god-container {
   img {
     max-width: 600px;
+    width: 100%;
+  }
+}
+
+.freemasonry-container {
+  iframe {
+    width: 100%;
+    max-width: 600px;
+  }
+
+}
+
+.jesus-quote {
+  font-size: 50px;
+}
+
+.group-container {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 800px) {
+  .satan-header {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .satan-logo {
+    width: 60px;
   }
 }

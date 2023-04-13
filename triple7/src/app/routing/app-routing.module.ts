@@ -32,6 +32,10 @@ const routes: Routes = [
     component: SatanicCultComponent
   },
   {
+    path: paths.sc,
+    component: SatanicCultComponent
+  },
+  {
     path: paths.flyer,
     component: FlyerComponent
   },

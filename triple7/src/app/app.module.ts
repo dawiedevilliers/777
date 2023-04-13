@@ -30,6 +30,7 @@ import { PostsModule } from './posts/posts.module';
 import { SatanicCultComponent } from './pages/satanic-cult/satanic-cult.component';
 import { FlyerComponent } from './pages/flyer/flyer.component';
 import { SymbolismComponent } from './pages/symbolism/symbolism.component';
+import { Triple7LoaderComponent } from './components/triple7-loader/triple7-loader.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SymbolismComponent } from './pages/symbolism/symbolism.component';
     HealthComponent,
     SatanicCultComponent,
     FlyerComponent,
-    SymbolismComponent
+    SymbolismComponent,
+    Triple7LoaderComponent
   ],
   imports: [
     BrowserModule,
